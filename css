@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif; 
+}
+body{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0ce94d;  
+}
+.container{
+width: 80%;
+height: 80vh;
+display: flex;
+box-shadow: 5px 5px 10px rgba(0, 0, 0,.212);
+}
+img{
+    width: 31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0c0ce94d;
+    padding: 8rem;
+}
+.cabecalho{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.botao-login{
+    display: flex;
+    align-items: center;
+}
+.botao-login button{
+    margin-bottom: 50px;
+    border:none;
+    background-color: #6c63ff;
+    padding: 0.44rem;
+    border-radius:15px ;
+    cursor: pointer;
+}
+.button button{
+    margin-top: 50px;
+    border:none;
+    background-color: #6c63ff;
+    padding: 0.44rem;
+    border-radius:15px ;
+    cursor: pointer;
+    align-items: center;
+}
+.botao-login button:hover{
+    background-color:#6b63fff1;
+}
+.botao-login button a {
+    text-decoration: none;
+    font-weight: 50%;
+    color: #ffff
+}
+.inputbox{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.1rem; 
+}
+.campos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1.1rem; 
+}
+.inputbox input{
+    border:none;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.1rem;  
+
+}
+@media screen and (max-width: 1064px) {
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+}
+.gender-input{
+margin-top:0.5rem ;
+}
+.gendertitle{
+    margin-top:2rem ;
+
+}
